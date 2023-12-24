@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI CHATBOT</title>
+</head>
+<body>
+    <form action="/submit_form" method="post">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+    
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+    
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+    
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+    
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+    
+        <label for="favorite_color">Favorite Color:</label><br>
+        <select id="favorite_color" name="favorite_color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select><br>
+    
+        <label for="favorite_fruit">Favorite Fruit:</label><br>
+        <input type="text" id="favorite_fruit" name="favorite_fruit"><br>
+    
+        <label for="favorite_number">Favorite Number:</label><br>
+        <input type="number" id="favorite_number" name="favorite_number" min="1" max="100"><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
